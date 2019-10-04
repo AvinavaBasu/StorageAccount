@@ -11,7 +11,7 @@
     },
     "variables": {
 	"prefix": "raetgdprtbl",
-	"storageAccounts_name": "[concat(variables('prefix'),parameters('EnvironmentShortName'))]"
+	"storageAccounts_name": "[concat('raetgdprtbl',parameters('EnvironmentShortName'))]"
 	},
     "resources": [
         {
