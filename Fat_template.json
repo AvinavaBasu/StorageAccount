@@ -8,7 +8,8 @@
     },
     "variables": {
 	"prefix": "raetgdprtbl", 
-	"storageAccounts_name": "[concat(variables('prefix'),(parameters('EnvironmentShortName')))]"
+	 "sometag" : "abc",	
+	    "storageAccounts_name": "[concat(variables('prefix'),(parameters('EnvironmentShortName')))]"
 	},
     "resources": [
         {
