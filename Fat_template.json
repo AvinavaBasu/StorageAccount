@@ -3,13 +3,12 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
 		"EnvironmentShortName":{
-			"defaultValue": "raetgdprtbldummy",
 		"type": "string"
 		}
     },
     "variables": {
-	"prefix": "raetgdprtbl",	
-	    "storageAccounts_name": "[concat(variables('prefix'),(parameters('EnvironmentShortName')))]"
+	"prefix": "raetgdprtbl",
+	"storageAccounts_name": "[concat(variables('prefix'),parameters('EnvironmentShortName'))]"
 	},
     "resources": [
         {
