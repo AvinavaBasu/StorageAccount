@@ -4,6 +4,10 @@
     "parameters": {
 		"EnvironmentShortName":{
 		"type": "string"
+		},
+		{
+		"storageAccounts_name":{
+		"type": "string"
 		}
     },
     "variables": {
