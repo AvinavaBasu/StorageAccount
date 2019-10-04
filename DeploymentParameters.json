@@ -4,5 +4,6 @@
   "parameters": {
 	"EnvironmentShortName":{
 	"value": "fat"
+	}
   }
 }
