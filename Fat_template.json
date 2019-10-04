@@ -3,6 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
 		"EnvironmentShortName":{
+			"defaultValue": "raetgdprtbldummy",
 		"type": "string"
 		}
     },
